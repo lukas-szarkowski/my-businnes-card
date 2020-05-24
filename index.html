@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wizytówka</title>
     <link href="css/normalize.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <main class="main">
+      <article class="person">
+        <img
+          class="person__picture"
+          src="images/me.jpg"
+          alt="Zdjęcie Imię i Nazwisko"
+        />
+        <div>
+          <header class="person__info">
+            <h1 class="person__name">Łukasz Szarkowski</h1>
+            <p class="person__position">junior frontend wannabe(I hope)</p>
+          </header>
+          <p class="person__description person__description--width-margin">
+            
+            <strong class="special">Początkujący programista</strong>,studiowałem gospodarowanie i zarządzanie przestrzenią,
+            pasjonat gór i jezior, kocham piłkę nożna i FC Barcelonę. 
+            <strong class="special">Interesujący się wszelkimi nowinkami w IT i motoryzacji.</strong>
+            W wolnych chwilach uczę się języka niemieckiego. Aktualnie w trakcie zmiany branży i zgłębiania frontendu i Pythona.
+          </p>
+          <p class="person__description">
+         W sieci:
+            <a class="person__link" href="https://github.com/lukas-szarkowski"
+              >GitHub</a
+            >,
+            <a class="person__link" href="lukas.szarkowski@gmail.com">Gmail</a>.
+          </p>
+        </div>
+      </article>
+    </main>
+  </body>
 </html>
